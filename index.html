@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init('uPdqjlBV4Z6iOrkzE')
+    </script>
+    <title>Portfolio-Rodrigo Cabrera</title>
+</head>
+<body>
+    <header>
+        <nav class="menu-container">
+            <!-- burger menu -->
+            <input type="checkbox" aria-label="Toggle menu" />
+            <span></span>
+            <span></span>
+            <span></span>
+          
+            
+            <!-- menu items -->
+            <div class="menu">
+              <ul>
+                <li>
+                  <a href="#Inicio">
+                    Inicio
+                  </a>
+                </li>
+                <li>
+                  <a href="#SobreMi">
+                    Sobre mí
+                  </a>
+                </li>
+                <li>
+                  <a href="#Proyectos">
+                    Proyectos
+                  </a>
+                </li>
+                <li>
+                  <a href="#Contacto">
+                    Contacto
+                  </a>
+                </li>
+              </ul>
+              <ul>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <div class='portada-container' id="Inicio">
+        <p  data-aos="fade-up" data-aos-duration="8000">Hola! Mi nombre es Rodrigo <br>y soy <span class="portada-span">Frontend developer</span></p>
+      </div>
+
+      <div class="sobre-mi-container" data-aos="fade-up" data-aos-duration="8000" id="SobreMi">
+        <p class="sobre-mi-titulo" >Sobre mí</p>
+        <p class="sobre-mi-texto">Soy Rodrigo Cabrera, tengo 28 años y actualmente estoy cursando 4to año de Ingeniería en Transporte, además de estudiar programación de forma autodidacta.</p>
+        <a class="cv-btn" href='https://drive.google.com/file/d/1zT7u8-NODGXtQctdBsJFcD7u2aPPbDK4/view?usp=share_link' target="_blank">Mi CV</a>
+      </div>
+
+      <div class="conocimientos-container" data-aos="fade-up" data-aos-duration="8000">
+        <p class="conocimientos-titulo">Conocimientos</p>
+        <p class="conocimientos-texto">Tengo conocimientos en: HTML, CSS, Javascript, GIT, React Js, React Redux, React Router,Material UI y Formik. Actualmente estoy aprendiendo Next Js</p>
+      </div>
+
+      <div class="proyectos-container" name="proyectos" id="Proyectos">
+        <p class="proyectos-titulo"  data-aos="fade-up" data-aos-duration="8000">Proyectos</p> 
+        <div class="proyectos-card-container">
+
+          <div class="card" data-aos="fade-up" data-aos-duration="8000">
+            <p class="card-titulo">Pokedex</p>
+            <div class="card-texto">
+              <p class="card-descripcion">Una aplicación que permite buscar y ver información de los pokemon utilizando la PokeApi</p>
+              <p>HTML CSS JS API</p>
+            </div>
+            <div class="card-links">
+              <a class="linkedin" href="http://pokedex-indol-iota.vercel.app/">link</a>
+              <a class="github" href="https://github.com/rocabrera94/Pokedex">código</a>
+            </div>
+          </div>
+            
+          
+          <div class="card" data-aos="fade-up" data-aos-duration="8000">
+            <p class="card-titulo">Portfolio</p>
+            <div class="card-texto">
+              <p class="card-descripcion">Este portfolio</p>
+              <p>HTML CSS JS</p>
+            </div>
+            <div class="card-links">
+              <a class="linkedin" href="#">link</a>
+              <a class="github" href="#">código</a>
+            </div>
+          </div>    
+
+          <div class="card" data-aos="fade-up" data-aos-duration="8000">
+            <p class="card-titulo">Diccionario</p>
+            <div class="card-texto">
+              <p class="card-descripcion"> Un Diccionario hecho con una Api que permite buscar palabras en inglés</p>
+              <p>API React Js Material UI</p>
+            </div>
+            <div class="card-links">
+              <a class="linkedin" href="https://new-dictionary.vercel.app/">link</a>
+              <a class="github" href="https://github.com/rocabrera94/New-Dictionary">código</a>
+            </div>
+          </div>
+
+          <div class="card" data-aos="fade-up" data-aos-duration="8000">
+            <p class="card-titulo">To Do List</p>
+            <div class="card-texto">
+              <p class="card-descripcion">La clásica Todo List hecha con React Js y Redux</p>
+              <p>React JS React Redux </p>
+            </div>
+            <div class="card-links">
+              <a class="linkedin" href="https://to-do-list-redux-seven.vercel.app/">link</a>
+              <a class="github" href="https://github.com/rocabrera94/To-Do-List-Redux">código</a>
+            </div>
+          </div>
+
+          <div class="card" data-aos="fade-up" data-aos-duration="8000">
+            <p class="card-titulo">Tienda</p>
+            <div class="card-texto">
+              <p class="card-descripcion">Un sitio web que muestra una lista de productos, permite ver información sobre ellos y agregarlos a un carrito de compras</p>
+              <p>React Js React Router React Redux Material UI API</p>
+            </div>
+            <div class="card-links">
+              <a class="linkedin" href="http://tienda-murex.vercel.app/">link</a>
+              <a class="github" href="https://github.com/rocabrera94/Tienda">código</a>
+            </div>
+          </div>
+        
+      </div>
+
+      <div class="contacto-container" data-aos="fade-up" data-aos-duration="8000" id='Contacto'>
+        <p class="contacto-titulo">Contacto</p>
+        <p class="contacto-texto">Pueden encontrarme en <a href="" class="linkedin">Linkedin</a>, <a href="" class="github">Github</a> o mediante correo:</p>
+        <form id="form">
+          <div class="field">
+            <label for="from_name">from_name</label>
+            <input type="text" name="from_name" id="from_name">
+          </div>
+          
+          <div class="field">
+            <label for="email_id">email_id</label>
+            <input type="text" name="email_id" id="email_id">
+          </div>
+          
+          <div class="field">
+            <label for="message">message</label>
+            <textarea type="text" name="message" id="message" rows="12" cols="32"></textarea>
+          </div>
+          
+          <div class="field">
+            <input type="submit" id="button" value="Enviar">
+          </div>
+          
+        </form>
+        
+      </div>
+    </main>
+    
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>
