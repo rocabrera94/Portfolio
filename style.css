@@ -256,6 +256,9 @@ body {
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
+.card:hover{
+  border: 2px solid #ff8400;
+}
 .card-titulo{
   font-weight: bold;
   font-size: 20px;
@@ -302,7 +305,7 @@ body {
   padding-left: 20px;
 }
 
-.linkedin{
+.linkedin, .github{
   text-decoration: none;
   transition: color 0.5s ease,text-decoration-color 0.5s;
   color: black;
@@ -312,23 +315,14 @@ body {
   text-decoration-style: "solid";
   text-decoration-color: #F77F00;
   text-decoration-thickness: 8px;
+  display: inline-block;
 }
 
 .linkedin:hover{
   color: #F77F00;
 }
 
-.github{
-  text-decoration: none;
-  transition: color 0.5s ease,text-decoration-color 0.5s;
-  color: black;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold; 
-  text-decoration-line: underline;
-  text-decoration-style: "solid";
-  text-decoration-color: #F77F00;
-  text-decoration-thickness: 8px; 
-}
+
 
 .github:hover{
   color: #F77F00;
